@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "debug nest",
+      "request": "launch",
+      "args": ["run", "start:dev"],
+      "runtimeExecutable": "pnpm",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node",
+      "console": "integratedTerminal"
+    }
+  ]
+}
